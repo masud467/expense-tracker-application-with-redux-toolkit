@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 import {
   editActive,
   removeTransaction,
-} from "../../features/transactions/TransactionSlice";
+} from "../../features/transactions/transactionSlice";
 import numberWithCommas from "../../utils/thousandsSeparators";
 const SingleTransaction = ({ transaction }) => {
   const { name, type, amount, id } = transaction || {};

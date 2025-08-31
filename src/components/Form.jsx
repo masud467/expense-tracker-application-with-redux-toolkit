@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import {
   createTransaction,
   updateTransaction,
-} from "../features/transactions/TransactionSlice";
+} from "../features/transactions/transactionSlice";
 import { toast } from "react-toastify";
 
 const Form = () => {

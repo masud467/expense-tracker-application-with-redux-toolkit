@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import SingleTransaction from "./SingleTransaction";
 import { useEffect } from "react";
-import { fetchTransactions } from "../../features/transactions/TransactionSlice";
+import { fetchTransactions } from "../../features/transactions/transactionSlice";
 
 const Transactions = () => {
   const { transactions, isLoading, isError } = useSelector(
